@@ -18,15 +18,9 @@
                 echo $user[ 'produit']."<br/>"; 
             }
             
+            DELETE FROM "produit" ;
+            WHERE id = "T-shirt noir" ;
 
-
-            $spdo { 
-            INSERT INTO id VALUES ("id8");
-            INSERT INTO nom VALUES ("T-shirt Noir");
-            INSERT INTO description VALUES ("T-shirt coton de couleur noir.");
-            INSERT INTO prix VALUES ("15.50");
-            INSERT INTO quantite VALUES ("10");
-        }
         ?>
     </body>
 </html>
